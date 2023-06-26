@@ -56,6 +56,9 @@ model Product {
 }
 
 model User {
+  username  String   @unique
+  password  String
+  roles     Json
   createdAt DateTime @default(now())
   id        String   @id @default(cuid())
   updatedAt DateTime @updatedAt

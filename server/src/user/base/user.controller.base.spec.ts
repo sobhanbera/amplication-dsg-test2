@@ -19,23 +19,31 @@ import { UserService } from "../user.service";
 const nonExistingId = "nonExistingId";
 const existingId = "existingId";
 const CREATE_INPUT = {
+  username: "exampleUsername",
+  password: "examplePassword",
   createdAt: new Date(),
   id: "exampleId",
   updatedAt: new Date(),
 };
 const CREATE_RESULT = {
+  username: "exampleUsername",
+  password: "examplePassword",
   createdAt: new Date(),
   id: "exampleId",
   updatedAt: new Date(),
 };
 const FIND_MANY_RESULT = [
   {
+    username: "exampleUsername",
+    password: "examplePassword",
     createdAt: new Date(),
     id: "exampleId",
     updatedAt: new Date(),
   },
 ];
 const FIND_ONE_RESULT = {
+  username: "exampleUsername",
+  password: "examplePassword",
   createdAt: new Date(),
   id: "exampleId",
   updatedAt: new Date(),
